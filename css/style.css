@@ -1,8 +1,56 @@
 header {
     background-color: #FFFFFF;
+}.logo, .logo:hover, .logo:focus {
+    color: #2196F3;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
 }
-body {
+.logo-header {
+    color: #000000;
+}
+.logo-header:hover, .logo-header:focus {
+    color: #2196F3;
+}
+.link {
+    color: #000000;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.link:hover, .link:focus {
+    color: #2196F3;
+}
+.contacts {
+    color: #757575;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em
+}
+.contacts:hover, .contacts:focus {
+    color: #2196F3;
+}
+main {
     background-color: #FFFFFF;
+}
+.hero-title {
+    color: tomato;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+}
+.button {
+    color: tomato;
 }
 footer {
     background-color: #2F303A;

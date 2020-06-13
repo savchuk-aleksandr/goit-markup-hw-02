@@ -1,6 +1,16 @@
-header {
+/* page backgraund #FFFFFF */
+/* footer backgraund #2F303A */
+/* main color #212121  */
+/* secondary color #757575 */
+/* accent #2196F3 */
+/* logo #2196F3 #000000 */
+/* hero #FFFFFF */
+/* logo footer ##2196F3  */
+.page {
     background-color: #FFFFFF;
-}.logo, .logo:hover, .logo:focus {
+}
+/* site nav */
+.logo, .logo:hover, .logo:focus {
     color: #2196F3;
     font-family: Raleway;
     font-style: normal;
@@ -14,14 +24,16 @@ header {
 .logo-header:hover, .logo-header:focus {
     color: #2196F3;
 }
+.list {
+    list-style: none;
+}
 .link {
     color: #000000;
     font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.02em;
 }
 .link:hover, .link:focus {
     color: #2196F3;
@@ -33,14 +45,11 @@ header {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.02em
 }
 .contacts:hover, .contacts:focus {
     color: #2196F3;
 }
-main {
-    background-color: #FFFFFF;
-}
+/* hero */
 .hero-title {
     color: tomato;
     font-family: Roboto;
@@ -52,6 +61,82 @@ main {
 .button {
     color: tomato;
 }
+/* section */
+.section {
+    color: #212121;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+.section-title {
+    color: #212121;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+.section-item {
+    color: #757575;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+/* work */
+.work-item {
+   color: tomato;
+   font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+/* footer */
 footer {
     background-color: #2F303A;
+}
+.logo-footer {
+    color: #FFFFFF;
+}
+.address {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+.footer-title {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px; 
+}
+.footer-button {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+}
+.copyright {
+    color: rgba(255, 255, 255, 0.4);
+}
+.filter {
+    color: #212121;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+}
+.filter:hover, .filter:focus {
+    color: #FFFFFF;
 }

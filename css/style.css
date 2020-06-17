@@ -52,9 +52,9 @@
 
     font-weight: 500;
     font-size: 14px;
-    line-height: 0.14;;
+    line-height: 0.14;
+    letter-spacing: 0.02rem;
     text-decoration: none;
-    letter-spacing: 0.02rem
 }
 .contacts:hover .contacts:focus {
     color: var(--accent-color);
